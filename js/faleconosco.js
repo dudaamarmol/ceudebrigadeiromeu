@@ -26,7 +26,7 @@
 
   // Função executada quando a variável (tópico) no servidor receber uma mensagem:
   function MensagemRecebida(message) {
-      resposta.innerHTML += "<br><br>" + message.payloadString;
+      resposta.innerHTML += "<br>Usuário: " + message.payloadString;
   }
 
   function Enviar()
