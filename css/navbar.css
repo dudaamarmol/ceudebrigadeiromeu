@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .divnavbar{
     width: 100%;
     height: 40px;
     position: fixed;
     z-index: 2;
-    background-color: #1f0025;
+    background-color: #5a8eff;
     padding: 16px 32px;
-    border-bottom: 3px solid #9201af;
+    border-bottom: 3px solid #0d72ff;
     opacity: 0.87;
 }
 
@@ -22,11 +23,14 @@
 }
 
 .titulo{
-    color:#fff;
+    color:#ffffff;
     font-size: 28px;
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff00d9;
+    font-family: "Lobster" sans-serif;
 }
 
 .tracos{
@@ -56,7 +60,7 @@
 
 .tracos:hover span:nth-child(2){
     transform: translateX(10px);
-    background-color: #9201af;
+    background-color: #ff37f5;
 
 }
 
@@ -74,7 +78,7 @@
 }
 
 .tracos.is-active:hover span{
-    background-color: #9201af;
+    background-color:  #ff37f5;
 }
 
 .menu{
@@ -94,8 +98,8 @@
     border-radius: 99px}
 
 .menu a.is-active, .menu a:hover{
-    background-color: #9201af;
-}   
+    background-color: #ff37f5;
+}
 
 .menu2{
     display: none;

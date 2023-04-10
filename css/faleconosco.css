@@ -89,6 +89,7 @@ body{
     box-shadow: 1px 1px black;
     padding-left: 20px;
     word-break: break-word;
+   
 }
 .mensagem
 {
@@ -97,5 +98,6 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: -10px;
+   
    
 }
